@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="scenario1.net.xml"/>
+        <route-files value="scenario1.rou.xml"/>
+        <!-- <additional-files value="atcs1.add.xml"/> -->
+    </input>
+
+     <output>
+      <tripinfo-output value="scenario1tripinfo.xml"/>
+    </output>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <xml-validation value="never"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <!-- <time>
+        <begin value="0"/>
+        <end value="100000"/>
+    </time> -->
+
+    <!-- <time>
+        <step-length value="100" />
+    </time> -->
+
+</configuration>
